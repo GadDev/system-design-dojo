@@ -107,4 +107,31 @@ DDIA focus for Week 3:
 The goal is not Redis command memorization. Every reading should end with one sentence of the form:
 
 > “This technique is useful when ___, because ___, but it creates ___.”
+---
+
+# Week 4 — Horizontal Scaling Reading Sprint
+
+Use **Google Site Reliability Engineering** and the **SRE Workbook** as the production spine, with NGINX/FastAPI/Kubernetes/Redis documentation as concrete implementation references.
+
+```text
+Day 1 → FastAPI deployment/worker model + Kubernetes horizontal-scaling introduction
+Day 2 → NGINX load balancing + Kubernetes readiness/liveness/startup probes
+Day 3 → Kubernetes HPA control-loop behavior and scaling metrics
+Day 4 → Redis rate-limiter pattern + RFC 6585 429 + Envoy token-bucket model
+Day 5 → Google SRE cascading failures + managing load + retry/backoff guidance
+Day 6 → Cloudflare R2 multipart/direct-upload + presigned URL documentation
+Day 7 → no new reading; design the 10k-upload architecture first
+```
+
+Book focus:
+
+- **Site Reliability Engineering** → overload, cascading failures, load balancing, capacity.
+- **The Site Reliability Workbook** → managing load in production.
+- **Release It!, 2nd Edition** → stability, timeouts, bulkheads, overload mindset.
+- **Computer Networking: A Top-Down Approach, 9th Edition** → transport/congestion context.
+- **Designing Data-Intensive Applications, 2nd Edition** → distributed failure and shared-state reasoning.
+
+Every reading should end with:
+
+> “Which bottleneck or failure mode would make me use this technique?”
 
