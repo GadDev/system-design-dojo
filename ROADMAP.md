@@ -22,33 +22,33 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ## Week 2 — Databases & Storage
 
-**Outcome:** Choose storage based on access patterns rather than habit.
+**Outcome:** Design a PostgreSQL persistence model from access patterns, protect invariants under concurrency, and choose the correct database scaling mechanism from evidence rather than habit.
 
 | Day | Topic | Deliverable |
 |---|---|---|
-| 1 | Relational data modeling | Model users, uploads, jobs, chunks, transcripts |
-| 2 | Indexes & query plans | Pick indexes for concrete queries |
-| 3 | Transactions & ACID | Design safe state transitions |
-| 4 | Replication & read scaling | Primary/replica architecture |
-| 5 | Partitioning & sharding | Decide when *not* to shard |
-| 6 | Design lab: transcript storage | PostgreSQL vs object storage tradeoff |
-| 7 | Review | Database decision matrix |
+| 1 | SQL vs NoSQL + workload-first modeling | Storage decision matrix |
+| 2 | Primary keys, foreign keys & constraints | Transcription ER model |
+| 3 | Indexes & query plans | Query-driven index plan + EXPLAIN lab |
+| 4 | Transactions, ACID, MVCC & isolation | Safe chunk/job state transition |
+| 5 | Connections & pooling | Connection-pressure analysis |
+| 6 | Replication, read replicas, partitioning & sharding | Database scaling decision tree |
+| 7 | Transcription data design lab + review | Full database design review + transcript storage ADR |
 
 ---
 
-## Week 3 — Caching & Rate Limiting
+## Week 3 — Caching with Redis
 
-**Outcome:** Reduce latency and backend load without creating correctness bugs.
+**Outcome:** Reduce latency and database load while reasoning explicitly about freshness, invalidation, memory, hot keys, stampedes, and distributed-cache failure.
 
 | Day | Topic | Deliverable |
 |---|---|---|
-| 1 | Cache fundamentals | Cache-aside flow |
-| 2 | TTL & invalidation | Freshness policy |
-| 3 | Redis data structures | Match structures to use cases |
-| 4 | Hot keys & cache stampede | Mitigation strategies |
-| 5 | Rate limiting algorithms | Token bucket vs sliding window |
-| 6 | Design lab: URL shortener | API + DB + cache + rate limits |
-| 7 | Review | Explain “cache invalidation” from memory |
+| 1 | Cache fundamentals + Redis mental model | Cache suitability matrix |
+| 2 | Cache-aside, hits, misses & key design | Working cache-aside flow |
+| 3 | TTL, expiration, eviction & invalidation | Freshness policy |
+| 4 | Stampedes, hot keys & negative caching | Failure mitigation playbook |
+| 5 | Distributed caching & Redis Cluster | Distributed-cache architecture |
+| 6 | Reliability, observability & transcription cache review | Cache design review |
+| 7 | Design lab: URL shortener | API + DB + Redis + edge-cache design |
 
 ---
 

@@ -1,8 +1,8 @@
-# System Design Ninja 🥷
+# System Design Dojo 🥷
 
-A 12-week system-design learning repository.
+A 12-week system-design learning repository — see `ROADMAP.md` for the full plan.
 
-This package contains the **expanded Week 1** revision with deeper networking/web foundations, primary sources, book references, practical labs, and stronger retrieval practice.
+**Status:** only Week 1 is expanded so far (`week-01-foundations/`), with deeper networking/web foundations, primary sources, book references, practical labs, and stronger retrieval practice. Weeks 2–12 are outlined in the roadmap but not yet written.
 
 ## Start here
 
@@ -31,3 +31,16 @@ week-01-foundations/answer-key.md
 ```
 
 until you complete the review quiz.
+
+## Reference
+
+```text
+ROADMAP.md            full 12-week curriculum
+PROGRESS.md           per-day completion tracker
+REVIEW-NOTES.md       editorial standard for lesson/lab content
+BOOK-READING-PLAN.md  book chapters mapped to roadmap topics
+```
+
+## Contributing
+
+See `CONTRIBUTING.md` for how to propose changes and `CODE_OF_CONDUCT.md` for community expectations. Licensed under `LICENSE` (MIT).
