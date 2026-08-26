@@ -1,5 +1,7 @@
 # Week 12 — Capstone & Mastery 🥷🏆
 
+![Week 12 — Capstone & Mastery 🥷🏆](../assets/week_12.png)
+
 ## Mission
 
 This is the final week of the first System Design Ninja cycle.

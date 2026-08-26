@@ -1,5 +1,7 @@
 # Week 11 — System Design Interview Mechanics ⚔️
 
+![Week 11 — System Design Interview Mechanics ⚔️](../assets/week_11.png)
+
 ## Mission
 
 For ten weeks you learned the ingredients. This week you learn to **cook under pressure**.
