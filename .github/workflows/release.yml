@@ -26,9 +26,9 @@ jobs:
               next
             }
             found { print }
-          ' meta/release/CHANGELOG.md)"
+          ' CHANGELOG.md)"
           if [ -z "$notes" ]; then
-            notes="See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/meta/release/CHANGELOG.md) for details."
+            notes="See [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for details."
           fi
           {
             echo "notes<<EOF"
