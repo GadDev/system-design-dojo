@@ -1,0 +1,18 @@
+{
+  "name": "system-design-dojo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "12-week system-design study curriculum, published with VitePress",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview .",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.11",
+    "vitepress": "^1.5.0"
+  }
+}

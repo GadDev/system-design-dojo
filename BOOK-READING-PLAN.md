@@ -8,16 +8,16 @@ You are not trying to finish books. You are using them as **precision tools**.
 
 Use throughout the roadmap.
 
-| Roadmap topic | DDIA focus |
-|---|---|
-| Foundations / requirements | Chapters 1–2 |
-| Databases | data models + storage/retrieval |
-| Replication | replication chapter |
-| Partitioning | sharding chapter |
-| Transactions | transactions chapter |
-| Distributed failure | trouble with distributed systems |
-| Consistency | consistency and consensus |
-| Batch/stream | later dataflow/streaming chapters |
+| Roadmap topic              | DDIA focus                        |
+| -------------------------- | --------------------------------- |
+| Foundations / requirements | Chapters 1–2                      |
+| Databases                  | data models + storage/retrieval   |
+| Replication                | replication chapter               |
+| Partitioning               | sharding chapter                  |
+| Transactions               | transactions chapter              |
+| Distributed failure        | trouble with distributed systems  |
+| Consistency                | consistency and consensus         |
+| Batch/stream               | later dataflow/streaming chapters |
 
 ## Networking spine
 
@@ -80,8 +80,7 @@ Day 6 → DDIA: replication + partitioning/sharding
 Day 7 → no new reading; defend your own design
 ```
 
-The goal is not page count. The goal is to connect each concept to one architecture decision in the transcription platform.
----
+## The goal is not page count. The goal is to connect each concept to one architecture decision in the transcription platform.
 
 # Week 3 — Caching Reading Sprint
 
@@ -106,7 +105,8 @@ DDIA focus for Week 3:
 
 The goal is not Redis command memorization. Every reading should end with one sentence of the form:
 
-> “This technique is useful when ___, because ___, but it creates ___.”
+> “This technique is useful when **_, because _**, but it creates \_\_\_.”
+
 ---
 
 # Week 4 — Horizontal Scaling Reading Sprint
@@ -160,9 +160,9 @@ Book focus:
 
 Every reading should end with two statements:
 
-> “This mechanism gives me ___.”
+> “This mechanism gives me \_\_\_.”
 >
-> “It still leaves me responsible for ___.”
+> “It still leaves me responsible for \_\_\_.”
 
 That second sentence is the important one in distributed systems.
 
@@ -192,3 +192,57 @@ Book focus:
 Every reading should end with:
 
 > "What is the unit of work, what is the unit of failure, and what state lets the workflow recover?"
+
+---
+
+# Week 7 — Reliability Reading Sprint
+
+Use AWS Builders' Library and Google SRE for retry/overload behavior, Kubernetes docs for health semantics, and PostgreSQL/Redis docs for concrete failover behavior.
+
+```text
+Day 1 → AWS timeout guidance + Google SRE cascading-failure model
+Day 2 → AWS retries/backoff/jitter + safe-idempotent retries
+Day 3 → Resilience4j circuit-breaker state machine + Release It!
+Day 4 → Kubernetes startup/liveness/readiness + graceful degradation
+Day 5 → PostgreSQL failover + Redis Sentinel + RTO/RPO reasoning
+Day 6 → Cloudflare R2 error/retry docs + transcription recovery playbook
+Day 7 → no new reading; execute the chaos design lab first
+```
+
+Book focus:
+
+- **Release It!, 2nd Edition** → circuit breakers, bulkheads, stability boundaries, cascading failures.
+- **Site Reliability Engineering** → overload, cascading failures, graceful degradation.
+- **The Site Reliability Workbook** → operational practices, incident/game-day thinking.
+- **Designing Data-Intensive Applications, 2nd Edition** → partial failure, replication, durability/availability tradeoffs.
+
+Every reading should end with:
+
+> “What fails, how do we contain it, and what evidence proves recovery?”
+
+---
+
+# Week 8 — Observability Reading Sprint
+
+Use OpenTelemetry as the vendor-neutral instrumentation spine, Prometheus for metric semantics/querying, Grafana for visualization/correlation, and Google SRE for SLO/alerting reasoning.
+
+```text
+Day 1 → OpenTelemetry signals, logs and context propagation
+Day 2 → Prometheus metric types, instrumentation, naming/cardinality, histograms
+Day 3 → OpenTelemetry Python + Collector + W3C Trace Context
+Day 4 → Google SRE SLO chapter + SRE Workbook Implementing SLOs
+Day 5 → Grafana alerting/exemplars + Google SRE monitoring chapter
+Day 6 → no broad reading first; execute the stuck-job incident lab, then compare with SRE alerting material
+Day 7 → no new reading; defend your telemetry architecture and incident flow
+```
+
+Book focus:
+
+- **Site Reliability Engineering** → monitoring distributed systems, SLOs, practical alerting.
+- **The Site Reliability Workbook** → implementing SLOs, monitoring, alerting on SLOs.
+- **Observability Engineering** → exploratory debugging, high-cardinality event data and observability practice.
+- **Distributed Systems Observability** → compact logs/metrics/traces mental models.
+
+Every reading should end with:
+
+> “Which question does this signal answer quickly, and which question does it _not_ answer?”

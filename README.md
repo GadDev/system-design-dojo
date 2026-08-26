@@ -20,7 +20,7 @@ System design is closer to playing guitar than studying history — you can read
 
 ## The one book to keep beside you
 
-<a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/"><img src="https://covers.openlibrary.org/b/isbn/9781098119058-M.jpg" alt="Designing Data-Intensive Applications, 2nd Edition cover" width="140"></a>
+<a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/"><img src="https://www.oreilly.com/covers/urn:orm:book:9781098119058/296w/?format=webp" alt="Designing Data-Intensive Applications, 2nd Edition cover" width="140"></a>
 
 **Designing Data-Intensive Applications, 2nd Edition** — Martin Kleppmann & Chris Riccomini. [O'Reilly](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) · [Amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-2nd-Maintainable/dp/B0H27BX5FH)
 
