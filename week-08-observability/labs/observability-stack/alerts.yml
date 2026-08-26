@@ -1,0 +1,20 @@
+groups:
+  - name: transcription-demo
+    rules:
+      - alert: TranscriptionQueueGrowing
+        expr: demo_transcription_queue_depth > 100
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Transcription queue depth is sustained above 100"
+          description: "Check arrival/completion rates, worker saturation, and provider health before scaling workers."
+
+      - alert: ApiHighP95Latency
+        expr: histogram_quantile(0.95, sum by (le) (rate(demo_http_request_duration_seconds_bucket[5m]))) > 1
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "API p95 latency exceeds 1 second"
+          description: "Inspect request rate/errors and downstream dependency latency."
