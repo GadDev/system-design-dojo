@@ -1,5 +1,7 @@
 # Week 8 — Observability 🔭
 
+![Week 8 — Observability 🔭](../assets/week_08.png)
+
 ## Mission
 
 By the end of this week, you should be able to investigate a distributed production incident **from evidence rather than intuition**.

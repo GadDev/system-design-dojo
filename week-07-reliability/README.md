@@ -1,5 +1,7 @@
 # Week 7 — Reliability Engineering 🛡️
 
+![Week 7 — Reliability Engineering 🛡️](../assets/week_07.png)
+
 ## Mission
 
 By the end of this week, you should stop treating failures as surprising exceptions and start designing **explicit failure behavior** into every dependency boundary.

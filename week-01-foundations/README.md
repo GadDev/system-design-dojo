@@ -1,5 +1,7 @@
 # Week 1 — Request Lifecycle & Web Foundations
 
+![Week 1 — Foundations](../assets/week_01.png)
+
 ## Mission
 
 By the end of this week, you should be able to look at a browser request and explain the major systems it crosses, what each component contributes, and where latency or failure can appear.

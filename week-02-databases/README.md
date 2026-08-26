@@ -1,5 +1,7 @@
 # Week 2 — Databases & Storage
 
+![Week 2 — Databases & Storage](../assets/week_02.png)
+
 ## Mission
 
 By the end of this week, you should be able to design a PostgreSQL-backed data model from requirements, explain the cost of your schema choices, and know when scaling the database means **better queries**, **more connections**, **replicas**, **partitions**, or—only much later—**shards**.

@@ -1,5 +1,7 @@
 # Week 4 — Horizontal Scaling, Traffic Management & Overload Protection
 
+![Week 4 — Horizontal Scaling, Traffic Management & Overload Protection](../assets/week_04.png)
+
 ## Mission
 
 By the end of this week, you should be able to take a simple service:

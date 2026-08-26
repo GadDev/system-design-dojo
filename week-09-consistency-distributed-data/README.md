@@ -1,5 +1,7 @@
 # Week 9 — Consistency & Distributed Data 🧭
 
+![Week 9 — Consistency & Distributed Data 🧭](../assets/week_09.png)
+
 ## Mission
 
 By the end of this week, you should be able to decide **which facts must be immediately consistent, which may converge later, and how the system recovers when durable components disagree**.

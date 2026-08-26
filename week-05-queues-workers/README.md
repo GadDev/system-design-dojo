@@ -1,5 +1,7 @@
 # Week 5 — Queues, Workers & Asynchronous Work ⚙️
 
+![Week 5 — Queues, Workers & Asynchronous Work ⚙️](../assets/week_05.png)
+
 ## Mission
 
 By the end of this week, you should be able to take a long-running operation such as transcription and turn it into a resilient asynchronous workflow with explicit delivery semantics, idempotent workers, retries, dead-letter handling, and measurable queue health.

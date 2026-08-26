@@ -1,5 +1,7 @@
 # Week 10 — Architecture Patterns 🏛️
 
+![Week 10 — Architecture Patterns 🏛️](../assets/week_10.png)
+
 ## Mission
 
 By the end of this week, you should be able to look at a system and ask:

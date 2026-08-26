@@ -1,5 +1,7 @@
 # Week 3 — Caching with Redis
 
+![Week 3 — Caching with Redis](../assets/week_03.png)
+
 ## Mission
 
 By the end of this week, you should be able to introduce a cache into a system **without treating it like magic**.

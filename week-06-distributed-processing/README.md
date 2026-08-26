@@ -1,5 +1,7 @@
 # Week 6 — Distributed Processing & Orchestration 🌶️
 
+![Week 6 — Distributed Processing & Orchestration 🌶️](../assets/week_06.png)
+
 ## Mission
 
 By the end of this week, you should be able to take one large unit of work, split it into independently retryable tasks, execute those tasks in parallel without overwhelming dependencies, and safely merge the results back into one deterministic output.
