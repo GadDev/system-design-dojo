@@ -40,7 +40,7 @@ export default withMermaid(defineConfig({
   // Labs link to non-Markdown assets (.py, .sql) that VitePress doesn't
   // render as pages, so it flags them as dead links. LICENSE has no
   // extension VitePress renders either.
-  ignoreDeadLinks: [/\.(py|sql)$/, /^LICENSE$/],
+  ignoreDeadLinks: [/\.(py|sql)$/, /LICENSE$/],
   rewrites: {
     "README.md": "index.md",
   },
