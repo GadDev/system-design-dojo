@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 function week(
   base: string,
@@ -27,7 +28,7 @@ function week(
   };
 }
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "System Design Dojo",
   description: "A 12-week system-design study curriculum",
   base: "/system-design-dojo/",
@@ -137,4 +138,4 @@ export default defineConfig({
       provider: "local",
     },
   },
-});
+}));
