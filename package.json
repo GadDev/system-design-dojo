@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "12-week system-design study curriculum, published with VitePress",
+  "packageManager": "pnpm@11.13.0",
   "scripts": {
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
