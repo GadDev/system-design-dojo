@@ -395,6 +395,18 @@ Licensed under the [MIT License](LICENSE).
 
 ---
 
+## 💬 A thought to leave with
+
+> “A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.”
+>
+> — **Leslie Lamport**, distributed systems pioneer
+
+---
+
 <p align="center">
   <strong>Design it. Break it. Scale it. Explain it. 🥷</strong>
+</p>
+
+<p align="center">
+  Made with ❤️ in Luxembourg · © 2026
 </p>
