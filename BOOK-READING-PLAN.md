@@ -246,3 +246,30 @@ Book focus:
 Every reading should end with:
 
 > “Which question does this signal answer quickly, and which question does it _not_ answer?”
+
+---
+
+# Week 9 — Consistency & Distributed Data Reading Sprint
+
+Use PostgreSQL and RFC material for concrete concurrency/transaction semantics, CAP literature for partition reasoning, and architecture guidance for event-driven workflows and sagas.
+
+```text
+Day 1 → DDIA consistency/replication + PostgreSQL transaction isolation
+Day 2 → Brewer/Gilbert-Lynch CAP + PostgreSQL logical replication/lag intuition
+Day 3 → RFC 9110 If-Match + PostgreSQL concurrency-control docs
+Day 4 → PostgreSQL 2PC / PREPARE TRANSACTION + distributed-transaction failure analysis
+Day 5 → Azure Event-Driven Architecture + Kafka event/log concepts
+Day 6 → AWS Saga patterns + Azure Compensating Transaction
+Day 7 → no new reading; defend source-of-truth and reconciliation choices first
+```
+
+Book focus:
+
+- **Designing Data-Intensive Applications, 2nd Edition** → replication, consistency, transactions, linearizability, dataflow.
+- **Database Internals** → replication, distributed transactions and deeper storage mechanics.
+- **Designing Event-Driven Systems** → event logs, streams, replay and event architecture.
+- **Enterprise Integration Patterns** → idempotent receiver, aggregator, message sequence and correlation vocabulary.
+
+Every reading should end with:
+
+> “Which fact is authoritative, how stale may derived copies be, and how does the system converge after disagreement?”
