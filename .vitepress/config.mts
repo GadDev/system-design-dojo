@@ -30,12 +30,16 @@ function week(
 export default defineConfig({
   title: "System Design Dojo",
   description: "A 12-week system-design study curriculum",
+  base: "/system-design-dojo/",
   srcDir: ".",
   srcExclude: ["**/node_modules/**", "**/.changeset/**"],
   cleanUrls: true,
   // Labs link to non-Markdown assets (.py, .sql) that VitePress doesn't
   // render as pages, so it flags them as dead links.
   ignoreDeadLinks: [/\.(py|sql)$/],
+  rewrites: {
+    "README.md": "index.md",
+  },
 
   themeConfig: {
     nav: [
@@ -48,7 +52,7 @@ export default defineConfig({
       {
         text: "Start here",
         items: [
-          { text: "Overview", link: "/README" },
+          { text: "Overview", link: "/" },
           { text: "Roadmap", link: "/ROADMAP" },
           { text: "Progress tracker", link: "/PROGRESS" },
           { text: "Book reading plan", link: "/BOOK-READING-PLAN" },
