@@ -114,7 +114,7 @@ Strong:
 🟡 6 Chat               → realtime / connection state
 ```
 
-Each brief lives under [`practice/`](practice/).
+Each brief lives under [`practice/`](practice/README.md).
 
 ---
 

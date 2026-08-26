@@ -203,6 +203,7 @@ export default withMermaid(defineConfig({
         ["design-notebook-template", "Design notebook template"],
         ["estimation-cheat-sheet", "Estimation cheat sheet"],
         ["scoring-rubric", "Scoring rubric"],
+        ["practice/README", "Practice: overview"],
         ["practice/01-url-shortener", "Practice: URL shortener"],
         ["practice/02-pastebin", "Practice: Pastebin"],
         ["practice/03-rate-limiter", "Practice: Rate limiter"],
