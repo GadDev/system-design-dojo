@@ -54,6 +54,31 @@ week-01-foundations/answer-key.md
 
 until you complete the review quiz.
 
+## Course standard
+
+Each mature module contains:
+
+- learning objectives,
+- mental models,
+- Mermaid diagrams,
+- concrete architecture examples,
+- authoritative sources,
+- hands-on labs,
+- failure drills,
+- retrieval quizzes,
+- design templates/ADRs,
+- capstone exercise,
+- separate answer key.
+
+Do not optimize for finishing files. Optimize for being able to close the repo and reconstruct the architecture from memory.
+
+## Final phase
+
+- [Week 11 — System Design Interview Mechanics](week-11-system-design-interview/README.md)
+- [Week 12 — Capstone & Mastery](week-12-capstone-mastery/README.md)
+- [System Design Training Ladder](TRAINING-LADDER.md)
+- [System Design Bible / Notebook](SYSTEM-DESIGN-NOTEBOOK.md)
+
 ## Reference
 
 ```text

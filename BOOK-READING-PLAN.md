@@ -301,3 +301,54 @@ Book focus:
 Every reading should end with:
 
 > “What problem is this pattern solving, what complexity does it introduce, and what measurable trigger would make my transcription platform pay that price?”
+
+---
+
+# Week 11 — Interview Practice Reading Sprint
+
+Reading volume drops. Practice volume rises.
+
+```text
+Day 1 → System Design Primer interview approach
+Day 2 → estimation worksheet; minimal reading
+Day 3 → RFC 9110 only for API semantics you actually use
+Day 4 → AWS Well-Architected as an architecture cross-check
+Day 5 → ByteByteGo framework after writing your own decision narrative
+Day 6 → no broad reading; execute ladder 1–6
+Day 7 → no reading before the mock
+```
+
+Book focus:
+
+- **System Design Interview Vol. 1/2** → compare after solving.
+- **DDIA 2e** → deepen tradeoffs exposed by mocks.
+
+Every session ends with:
+
+> “Which component did I add without enough evidence?”
+
+---
+
+# Week 12 — Real-World Architecture & Capstone Sprint
+
+```text
+Day 1 → no new broad reading; use your transcription design
+Day 2 → YouTube resumable upload + Transcoder + Media CDN
+Day 3 → X/Twitter scale articles after your own feed design
+Day 4 → Uber H3 after your own spatial-index idea
+Day 5 → Dropbox Nucleus + Magic Pocket after your own sync design
+Day 6 → Netflix Open Connect after your own streaming design
+Day 7 → no reading until final 100k-hours/day defense is complete
+```
+
+Book focus:
+
+- **DDIA 2e**
+- **Building Microservices 2e**
+- **Site Reliability Engineering**
+- **Release It! 2e**
+
+Final reading question:
+
+> “Which architecture elements exist because of that company's unique workload, and which would be premature for mine?”
+
