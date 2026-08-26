@@ -166,4 +166,29 @@ Every reading should end with two statements:
 
 That second sentence is the important one in distributed systems.
 
+---
 
+# Week 6 — Distributed Processing Reading Sprint
+
+Use the Google MapReduce paper for the foundational fan-out/fan-in mental model, framework documentation for concrete orchestration mechanisms, and DDIA for failure/coordination reasoning.
+
+```text
+Day 1 → Google MapReduce: map/reduce model, scheduling, failure handling
+Day 2 → FFmpeg segment muxer + DDIA partitioning/failure-domain intuition
+Day 3 → Celery groups/chords + Step Functions Map concurrency controls
+Day 4 → revisit fan-in primitives; focus on barriers, ordering and stragglers
+Day 5 → Redis distributed-lock caveats + PostgreSQL advisory locks
+Day 6 → Temporal durable execution + Step Functions Distributed Map
+Day 7 → no new reading; defend your own workflow before comparing tools
+```
+
+Book focus:
+
+- **Designing Data-Intensive Applications, 2nd Edition** → partitioning, distributed failure, dataflow, coordination.
+- **Designing Distributed Systems** → work queues, scatter/gather and orchestration patterns.
+- **Enterprise Integration Patterns** → aggregator, correlation identifier, idempotent receiver.
+- **Release It!, 2nd Edition** → tail latency, overload and failure amplification.
+
+Every reading should end with:
+
+> "What is the unit of work, what is the unit of failure, and what state lets the workflow recover?"
