@@ -4,6 +4,9 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ---
 
+# Phase 1 — Foundations 🧱
+### Weeks 1–2
+
 ## Week 1 — Request Lifecycle & Web Foundations
 
 **Outcome:** Trace a request from browser to backend and explain where latency, scaling, and failure can appear.
@@ -36,6 +39,9 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ---
 
+# Phase 2 — Scale 🚀
+### Weeks 3–4
+
 ## Week 3 — Caching with Redis
 
 **Outcome:** Reduce latency and database load while reasoning explicitly about freshness, invalidation, memory, hot keys, stampedes, and distributed-cache failure.
@@ -52,7 +58,7 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ---
 
-## Week 4 — Scaling Stateless Services
+## Week 4 — Scaling Stateless Services(Horizontal scaling)
 
 **Outcome:** Scale a service horizontally and reason about the new bottlenecks created by scaling.
 
@@ -67,6 +73,9 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 | 7 | Review | 10× / 100× / 1000× exercise |
 
 ---
+
+# Phase 3 — Async & Distributed Systems ⚙️
+### Weeks 5–6
 
 ## Week 5 — Queues & Asynchronous Work
 
@@ -84,7 +93,7 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ---
 
-## Week 6 — Distributed Processing & Orchestration
+## Week 6 — Distributed Processing & Orchestration (Now things get spicy. 🌶️)
 
 **Outcome:** Split large workloads into safe, parallel sub-jobs.
 
@@ -100,7 +109,10 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 
 ---
 
-## Week 7 — Reliability Engineering
+# Phase 4 — Reliability 🛡️
+### Weeks 7–8
+
+## Week 7 — Reliability Engineering(Failure is normal)
 
 **Outcome:** Treat failure as a normal operating condition.
 
@@ -131,6 +143,9 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 | 7 | Review | Observability scorecard |
 
 ---
+
+# Phase 5 — Architecture Decisions 🧠
+### Weeks 9–10
 
 ## Week 9 — Consistency & Distributed Data
 
@@ -163,6 +178,9 @@ This roadmap is intentionally cumulative: every week adds one new layer to the s
 | 7 | Review | Pattern decision matrix |
 
 ---
+
+# Phase 6 — System Design Interviews ⚔️
+### Weeks 11–12
 
 ## Week 11 — System Design Interview Mechanics
 

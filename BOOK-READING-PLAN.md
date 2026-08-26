@@ -135,3 +135,35 @@ Every reading should end with:
 
 > “Which bottleneck or failure mode would make me use this technique?”
 
+---
+
+# Week 5 — Queues & Workers Reading Sprint
+
+Use official broker documentation to learn the actual delivery mechanics, then use architecture books to generalize the patterns.
+
+```text
+Day 1 → FastAPI BackgroundTasks caveat + Redis/RabbitMQ consumer mental model
+Day 2 → RabbitMQ reliability/ACKs + Kafka delivery semantics
+Day 3 → PostgreSQL constraints/transactions recap + Transactional Outbox pattern
+Day 4 → Redis Streams + RabbitMQ exchanges/queues + Kafka topics/partitions/groups
+Day 5 → RabbitMQ DLX + Celery retry/backoff + Google SRE cascading-failure guidance
+Day 6 → re-read FastAPI/Celery boundaries; apply everything to transcription
+Day 7 → no new reading; defend your broker and delivery choices first
+```
+
+Book focus:
+
+- **Designing Data-Intensive Applications, 2nd Edition** → dataflow, logs/streams, distributed failure, message-driven systems.
+- **Enterprise Integration Patterns** → competing consumers, dead-letter channel, idempotent receiver, message routing vocabulary.
+- **Release It!, 2nd Edition** → retry amplification, stability boundaries, overload and recovery.
+- **Designing Event-Driven Systems** → Kafka/log-based event architecture and replay.
+
+Every reading should end with two statements:
+
+> “This mechanism gives me ___.”
+>
+> “It still leaves me responsible for ___.”
+
+That second sentence is the important one in distributed systems.
+
+
