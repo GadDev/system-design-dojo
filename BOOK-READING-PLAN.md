@@ -273,3 +273,31 @@ Book focus:
 Every reading should end with:
 
 > “Which fact is authoritative, how stale may derived copies be, and how does the system converge after disagreement?”
+
+---
+
+# Week 10 — Architecture Patterns Reading Sprint
+
+Use pattern literature to learn the forces and tradeoffs, not to copy a target diagram. Start with the cost of distribution, then layer patterns only when a real requirement appears.
+
+```text
+Day 1 → Fowler microservice trade-offs + Spring Modulith overview
+Day 2 → Fowler microservices + microservice prerequisites + Building Microservices
+Day 3 → Azure Event-Driven Architecture + revisit queue/event delivery semantics
+Day 4 → Azure CQRS pattern; compare simple CRUD → separate code paths → separate read store
+Day 5 → Azure Event Sourcing + Fowler Event Sourcing + DDIA logs/derived data
+Day 6 → AWS Saga pattern + Microservices Patterns saga/outbox material
+Day 7 → no new reading first; defend the transcription evolution ADR before comparing examples
+```
+
+Book focus:
+
+- **Building Microservices, 2nd Edition** → decomposition, ownership, evolutionary extraction and operations.
+- **Building Evolutionary Architectures, 2nd Edition** → fitness functions and safe architectural change.
+- **Designing Data-Intensive Applications, 2nd Edition** → logs, derived data, dataflow and consistency costs.
+- **Microservices Patterns** → sagas, outbox, database-per-service, CQRS and event sourcing relationships.
+- **Enterprise Integration Patterns** → message/event vocabulary and integration tradeoffs.
+
+Every reading should end with:
+
+> “What problem is this pattern solving, what complexity does it introduce, and what measurable trigger would make my transcription platform pay that price?”
